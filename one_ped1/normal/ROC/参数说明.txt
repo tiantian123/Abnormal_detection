@@ -1,0 +1,7 @@
+①error_total2:隐含层为输入的2倍，lambada=0.1，mu=0.03，gradient  number_batch=100,cg number_batch=20（时间序列：49，训练集：136个，剔除了首帧），数据进行归一化
+
+②error_total3:隐含层为输入的2倍，lambada=500，mu=0.03，gradient  number_batch=100,cg number_batch=20（时间序列：49，训练集：136个，剔除了首帧），参数没有进行归一化
+
+③error_total4:隐含层为输入的2倍，lambada=0.8，mu=0.03，gradient  number_batch=100,cg number_batch=20（时间序列：49，训练集：136个，剔除了首帧），参数没有进行归一化
+
+③error_total5:隐含层为输入的2倍，lambada=0.02，mu=0.01，gradient  number_batch=200,cg number_batch=20（时间序列：49，训练集：136个，剔除了首帧），参数已进行归一化
